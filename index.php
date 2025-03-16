@@ -97,7 +97,8 @@ include("connections.php");
 
                 <td>
                     <a href='edit.php?id=$user_id'>Update</a>
-                    <a href=''>Delete</a>
+                    &nbsp;
+                    <a href='coNfirmdelete.php?id=$user_id'>Delete</a>
                 </td>
             </tr>";
     }
