@@ -33,6 +33,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 </style>
 
+<br>
+
+<?php include("nav.php"); ?>
+
+<br>
+<br>
+
 <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
     <input type="text" name="name" value="<?php echo $name; ?>"> <br>
     <span class="error"><?php echo $nameErr; ?></span> <br>
