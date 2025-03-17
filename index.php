@@ -105,3 +105,20 @@ include("connections.php");
 
     echo "</table>"
 ?>
+
+
+<hr>
+
+<?php
+
+$Paul = "Paul";
+$Mica = "Mica";
+$Kaye = "Kaye";
+
+$names = array($Paul, $Mica, $Kaye);
+
+foreach ($names as $display_name) {
+    echo $display_name . "<br>";
+}
+
+?>
